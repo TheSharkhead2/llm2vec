@@ -16,8 +16,8 @@ def load_dataset(dataset_name, split="validation", file_path=None, **kwargs):
     dataset_mapping = {
         "E5": E5Data,
         "Wiki1M": Wiki1M,
-        "arXivAbstract": ArXivAbstract,
-        "arXivTitle": ArXivTitle
+        "ArXivAbstract": ArXivAbstract,
+        "ArXivTitle": ArXivTitle
     }
 
     if dataset_name not in dataset_mapping:
