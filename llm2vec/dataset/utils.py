@@ -1,5 +1,7 @@
 from ..dataset import E5Data
 from ..dataset import Wiki1M
+from ..dataset import ArXivAbstract
+from ..dataset import ArXivTitle
 
 
 def load_dataset(dataset_name, split="validation", file_path=None, **kwargs):
@@ -14,6 +16,8 @@ def load_dataset(dataset_name, split="validation", file_path=None, **kwargs):
     dataset_mapping = {
         "E5": E5Data,
         "Wiki1M": Wiki1M,
+        "arXivAbstract": ArXivAbstract,
+        "arXivTitle": ArXivTitle
     }
 
     if dataset_name not in dataset_mapping:
