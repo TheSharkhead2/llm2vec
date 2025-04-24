@@ -13,7 +13,7 @@
     "gradient_accumulation_steps": 1,
     "do_train": true,
     "disable_tqdm": false,
-    "max_seq_length": 512,
+    "max_seq_length": 256,
     "overwrite_output_dir": true,
     "output_dir": "output/mntp-simcse/arxiv_abstracts-Sheared-LLaMA-1.3B",
     "logging_steps": 50,
