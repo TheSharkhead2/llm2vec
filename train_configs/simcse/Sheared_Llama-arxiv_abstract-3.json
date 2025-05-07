@@ -15,7 +15,7 @@
     "disable_tqdm": false,
     "max_seq_length": 256,
     "overwrite_output_dir": true,
-    "output_dir": "output/mntp-simcse/arxiv_abstracts-Sheared-LLaMA-1.3B",
+    "output_dir": "output/mntp-simcse/arxiv_abstracts_3-Sheared-LLaMA-1.3B",
     "logging_steps": 50,
     "save_steps": 200,
     "save_only_model": true,
